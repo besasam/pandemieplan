@@ -1,0 +1,48 @@
+body {
+    background: #fff2d0;
+    background: linear-gradient(90deg, #fff2d0 0%, #c4c7ef 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #DC2342;
+    font-size: 4rem;
+    text-shadow: -5px 0 #431DD7;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+main p {
+    font-size: 2rem;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 20px;
+    background: #FFD7D5;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .4);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
